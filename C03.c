@@ -8,6 +8,6 @@ int main(){
     for (k = 1; k <= n; k++) {
         if (k % 5 != 0) sum += k;
      }
-    printf("The sum is %d", sum);
+    printf("The sum is %d\n", sum);
     return 0;
 }
