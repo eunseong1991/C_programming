@@ -3,7 +3,7 @@ int main(){
     int n;
     int sum = 0;
     int k;
-    printf("Enter a natural number.\n");
+    printf("Enter a natural number: ");
     scanf("%d", &n);
     for (k = 1; k <= n; k++) {
         if (k % 5 != 0) sum += k;
